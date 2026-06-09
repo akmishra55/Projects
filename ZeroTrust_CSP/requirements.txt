@@ -1,4 +1,0 @@
-Flask
-pyotp
-qrcode
-pillow
