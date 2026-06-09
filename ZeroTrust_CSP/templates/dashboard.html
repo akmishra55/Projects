@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<h2>Welcome, {{ username }}!</h2>
+<p>You have successfully logged in using password + OTP.</p>
+<p>This page is protected and only accessible after secure authentication.</p>
+
+<a href="{{ url_for('logout') }}">
+    <button>Logout</button>
+</a>
+{% endblock %}
